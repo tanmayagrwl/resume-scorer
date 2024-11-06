@@ -1,0 +1,395 @@
+{
+  "45d9c80e6f414707b9bd4d15f490feb9": {
+    "education": [
+      {
+        "degree": "BTech",
+        "fieldOfStudy": "Computer Science and Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "string",
+        "endDate": null
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Working as a Backend and React Native Developer, while also developing the Operations dashboard. Leveraging AWS CDK and Lambda to integrate multiple AWS services for backend functionality.",
+        "location": "Remote, US",
+        "startDate": "April 2024",
+        "title": "SDE Intern",
+        "endDate": "Current"
+      },
+      {
+        "company": "Climec Labs",
+        "description": "Developed Flutter-based IoT app for air purifiers, enabling users to control their devices and monitor AQI. Integrated graphs and dashboard analysis for the user to track quality and control their air purifiers. Enhanced the developer experience by 70% by incorporating GetX Cli and Firebase for efficient data management.",
+        "location": "Chennai, Tamil Nadu",
+        "startDate": "Sep 2023",
+        "title": "App Development Intern",
+        "endDate": "Dec 2023"
+      },
+      {
+        "company": "SRMKzilla",
+        "description": "Started as a member, promoted to Associate Technical Lead, overseen 4 development projects and creating development initiatives and technical strategies within the club's tech team. Led a team of 20+ members, conducted sessions and tech talks in my tenure.",
+        "location": "string",
+        "startDate": "Oct 2022",
+        "title": "Associate Technical Lead",
+        "endDate": "April 2024"
+      },
+      {
+        "company": "Google Developers Students Clubs SRM",
+        "description": "Led a team of 6 developers in creating an event management app, streamlining event uploads and registration. Enhanced app functionalities through cross-functional collaboration, improving event, participant, and registration management by 60%.",
+        "location": "string",
+        "startDate": "April 2023",
+        "title": "Associate Technical Lead",
+        "endDate": "July 2024"
+      }
+    ],
+    "improvements": [
+      "Add quantifiable achievements to each role.",
+      "Provide more detail on technologies used.",
+      "Clarify responsibilities in each role.",
+      "Use action verbs to start each bullet point.",
+      "Proofread for grammar and spelling errors."
+    ],
+    "introduction": "I am a highly motivated and results-oriented Software Developer with a proven ability to lead and contribute to high-impact projects. I'm proficient in several programming languages and frameworks and have experience working on various cloud platforms. My background in both frontend and backend development provides me with a comprehensive understanding of software development life cycles, and I'm constantly seeking opportunities to learn and grow in the technology industry. I am confident in my ability to excel in a fast-paced environment and deliver high-quality results. ",
+    "keywords": [
+      "Software Developer",
+      "Backend Development",
+      "Frontend Development",
+      "React Native",
+      "AWS",
+      "Flutter",
+      "IoT",
+      "Cloud Computing",
+      "TypeScript",
+      "JavaScript",
+      "GoLang",
+      "Node.js",
+      "AWS CDK",
+      "Lambda",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Remix",
+      "Firebase",
+      "GetX",
+      "Technical Lead"
+    ],
+    "links": {
+      "github": "github.com/jatindotdev",
+      "linkedin": "linkedin.com/in/jatinnkumar",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Contributed to core CMS features, including user management, content creation, and publishing, to improve overall system performance and user experience. Integrated AWS S3 for efficient image upload and management, optimizing storage and retrieval processes within the CMS.",
+        "name": "KzCMS",
+        "startDate": "string",
+        "endDate": null,
+        "link": "string"
+      },
+      {
+        "description": "Developed a URL shortener in GoLang, then expanded it into a full-stack application using Remix. Implemented Redis for caching and PostgreSQL for data storage without an ORM, optimizing performance and database management.",
+        "name": "TinyBits",
+        "startDate": "string",
+        "endDate": null,
+        "link": "string"
+      }
+    ],
+    "score": 75.2,
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C",
+      "C++",
+      "NodeJS",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "ExpressJS",
+      "ReactJS",
+      "RemixJS",
+      "NextJS",
+      "Astro",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Shaden"
+    ],
+    "summary": "A motivated and skilled Software Developer with experience in backend and frontend development, cloud platforms (AWS), and mobile development (Flutter, React Native). Demonstrates strong project management and leadership skills, leading teams and successfully completing projects. ",
+    "whyScore": [
+      "Solid foundation in software development technologies.",
+      "Clear demonstration of leadership qualities.",
+      "Potential for growth and development.",
+      "Opportunities for improvement and additional achievements."
+    ],
+    "name": "Jatin"
+  },
+  "7e2bd84cab68403d91c7e2627d222442": {
+    "education": [
+      {
+        "degree": "BTech",
+        "fieldOfStudy": "Computer Science and Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "string",
+        "endDate": null
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Working as a Backend and React Native Developer, while also developing the Operations dashboard. Leveraging AWS CDK and Lambda to integrate multiple AWS services for backend functionality.",
+        "location": "Remote, US",
+        "startDate": "April 2024",
+        "title": "SDE Intern",
+        "endDate": "Current"
+      },
+      {
+        "company": "Climec Labs",
+        "description": "Developed Flutter-based IoT app for air purifiers, enabling users to control their devices and monitor AQI. Integrated graphs and dashboard analysis for the user to track quality and control their air purifiers. Enhanced the developer experience by 70% by incorporating GetX Cli and Firebase for efficient data management.",
+        "location": "Chennai, Tamil Nadu",
+        "startDate": "Sep 2023",
+        "title": "App Development Intern",
+        "endDate": "Dec 2023"
+      },
+      {
+        "company": "SRMKzilla",
+        "description": "Started as a member, promoted to Associate Technical Lead, overseen 4 development projects and creating development initiatives and technical strategies within the club's tech team. Led a team of 20+ members, conducted sessions and tech talks in my tenure.",
+        "location": "string",
+        "startDate": "Oct 2022",
+        "title": "Associate Technical Lead",
+        "endDate": "April 2024"
+      },
+      {
+        "company": "Google Developers Students Clubs SRM",
+        "description": "Led a team of 6 developers in creating an event management app, streamlining event uploads and registration. Enhanced app functionalities through cross-functional collaboration, improving event, participant, and registration management by 60%.",
+        "location": "string",
+        "startDate": "April 2023",
+        "title": "Associate Technical Lead",
+        "endDate": "July 2024"
+      }
+    ],
+    "improvements": [
+      "Add more details about projects, including specific technologies used and quantifiable results.",
+      "Expand on technical skills, mentioning specific frameworks, libraries, and tools used.",
+      "Include more detail on responsibilities in each role.",
+      "Quantify achievements wherever possible (e.g., 'reduced load time by X%').",
+      "Proofread for grammar and spelling errors."
+    ],
+    "introduction": "I am a highly motivated and results-oriented Software Developer with a strong background in backend development and frontend development.  My experience spans multiple projects, demonstrating proficiency in technologies such as React Native, Flutter, AWS CDK, Lambda, and various cloud platforms. I thrive in collaborative environments and excel at taking initiative.  I am proficient in collaborating with cross-functional teams and leading small development projects. My goal is to leverage my technical skills and experience to contribute effectively to a dynamic team environment.",
+    "keywords": [
+      "Software Developer",
+      "Backend Development",
+      "Frontend Development",
+      "React Native",
+      "Flutter",
+      "AWS",
+      "CDK",
+      "Lambda",
+      "Cloud Computing",
+      "IoT",
+      "API Development",
+      "DevOps",
+      "Project Management",
+      "Teamwork",
+      "Problem-solving",
+      "Leadership"
+    ],
+    "links": {
+      "github": "github.com/jatindotdev",
+      "linkedin": "linkedin.com/in/jatinnkumar",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Contributed to core CMS features, including user management, content creation, and publishing, to improve overall system performance and user experience. Integrated AWS S3 for efficient image upload and management, optimizing storage and retrieval processes within the CMS.",
+        "name": "KzCMS",
+        "startDate": "string",
+        "endDate": null,
+        "link": "Github"
+      },
+      {
+        "description": "Developed a URL shortener in GoLang, then expanded it into a full-stack application using Remix. Implemented Redis for caching and PostgreSQL for data storage without an ORM, optimizing performance and database management.",
+        "name": "TinyBits",
+        "startDate": "string",
+        "endDate": null,
+        "link": "Github"
+      }
+    ],
+    "score": 75,
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C++",
+      "AWS CDK",
+      "Lambda",
+      "React Native",
+      "Flutter",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Express.js",
+      "React.js",
+      "Remix.js",
+      "Next.js",
+      "Astro",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Shaden"
+    ],
+    "summary": "A highly motivated and skilled Software Developer with proven experience in backend and frontend development, leveraging cloud platforms and modern technologies.  Demonstrates strong problem-solving abilities and a collaborative approach, excelling in both individual and team-based projects.  Seeking a challenging role where technical skills and initiative can contribute to project success.",
+    "whyScore": [
+      "Solid foundation in backend and frontend technologies.",
+      "Experience working with cloud platforms.",
+      "Demonstrated ability to work on projects and gain experience with team-based projects.",
+      "Opportunities for growth and improvement through practical experience.",
+      "Needs to provide more quantitative achievements to improve the score."
+    ],
+    "name": "Jatin"
+  },
+  "7b056e3a40de459d8a6294449f50d1f9": {
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "fieldOfStudy": "Computer Science",
+        "school": "Southwestern University",
+        "startDate": "2014",
+        "endDate": "2018"
+      },
+      {
+        "degree": "Associate's",
+        "fieldOfStudy": "Liberal Arts",
+        "school": "Blinn College",
+        "startDate": "2018",
+        "endDate": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Texas A&M University",
+        "description": "Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems. Developed a full-stack web application using Flask, React, PostgreSQL, and Docker to analyze GitHub data. Explored ways to visualize GitHub collaboration in a classroom setting.",
+        "location": "College Station, TX",
+        "startDate": "June 2020",
+        "title": "Undergraduate Research Assistant",
+        "endDate": "Present"
+      },
+      {
+        "company": "Southwestern University",
+        "description": "Communicate with managers to set up campus computers used on campus. Assess and troubleshoot computer problems brought by students, faculty, and staff. Maintain upkeep of computers, classroom equipment, and 200 printers across campus.",
+        "location": "Georgetown, TX",
+        "startDate": "Sep 2018",
+        "title": "Information Technology Support Specialist",
+        "endDate": "Present"
+      },
+      {
+        "company": "Southwestern University",
+        "description": "Explored methods to generate video game dungeons based off of The Legend of Zelda. Developed a game in Java to test the generated dungeons. Contributed 50K+ lines of code to an established codebase via Git. Conducted a human subject study to determine which video game dungeon generation technique is enjoyable. Wrote an 8-page paper and gave multiple presentations on-campus. Presented virtually to the World Conference on Computational Intelligence.",
+        "location": "Georgetown, TX",
+        "startDate": "May 2019",
+        "title": "Artificial Intelligence Research Assistant",
+        "endDate": "July 2019"
+      }
+    ],
+    "improvements": [
+      "Add quantifiable results to projects and experience sections.  Use action verbs to begin bullet points.  Use a more consistent formatting style for bullet points.  Add more detail to the projects section.",
+      "Revise the \"Summary\" to be a concise statement of skills and experience applicable to a writer position.",
+      "Consider tailoring the resume to specifically highlight skills and experience relevant to the writer role and the specific target job.",
+      "Use stronger, more descriptive language to showcase accomplishments in the \"Projects\" section and other sections of the resume.",
+      "Specify technical skills used in each role and project. Provide more details about the technologies used for a more comprehensive understanding.",
+      "Provide a concise summary highlighting key skills and accomplishments applicable to a writer role.",
+      "Ensure the resume formatting is consistent, clean, and easy to read.",
+      "Review and proofread the resume for grammar and spelling errors, and eliminate unnecessary jargon and technical terms if the writer job does not require that."
+    ],
+    "introduction": "I am a highly motivated and detail-oriented individual with a strong academic background in computer science and a passion for creative writing and problem-solving.  I have experience in developing software applications and contributing to projects in artificial intelligence and information technology, requiring careful research, data analysis, and technical communication. I have a proven ability to learn new technologies quickly and collaborate effectively with teams.",
+    "keywords": [
+      "Computer Science",
+      "Software Development",
+      "Artificial Intelligence",
+      "Information Technology",
+      "Research Assistant",
+      "Project Management",
+      "Problem Solving",
+      "Communication",
+      "Collaboration",
+      "Programming",
+      "Writing",
+      "Full-Stack Development",
+      "Data Analysis",
+      "GitHub",
+      "PostgreSQL",
+      "Flask",
+      "React",
+      "Docker",
+      "Java",
+      "Python",
+      "C/C++"
+    ],
+    "links": {
+      "github": "github.com/jake",
+      "linkedin": "linkedin.com/in/jake",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Developed a full-stack web application using Flask serving a REST API with React as the frontend. Implemented GitHub OAuth to get data from user's repositories. Visualized GitHub data to show collaboration. Used Celery and Redis for asynchronous tasks.",
+        "name": "Gitlytics",
+        "startDate": "June 2020",
+        "endDate": "Present",
+        "link": null
+      },
+      {
+        "description": "Developed a Minecraft server plugin to entertain kids during free time for a previous job. Implemented continuous delivery using TravisCI to build the plugin upon new a release. Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review. Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin.",
+        "name": "Simple Paintball",
+        "startDate": "May 2018",
+        "endDate": "May 2020",
+        "link": null
+      }
+    ],
+    "score": 75.63,
+    "skills": [
+      "Java",
+      "Python",
+      "C/C++",
+      "SQL",
+      "JavaScript",
+      "HTML/CSS",
+      "React",
+      "Node.js",
+      "Flask",
+      "PostgreSQL",
+      "Docker",
+      "GitHub",
+      "Git",
+      "TravisCI",
+      "Data Analysis",
+      "Problem Solving",
+      "Communication",
+      "Collaboration",
+      "Writing",
+      "Programming"
+    ],
+    "summary": "A highly motivated and detail-oriented computer science graduate with experience in software development, artificial intelligence, and information technology. Strong skills in programming languages, including Java, Python, and C/C++, and frameworks like React and Flask. Proven ability to learn new technologies quickly and contribute to team projects. Seeking a challenging writer position that leverages my technical skills and communication abilities.",
+    "whyScore": [
+      "Strong academic background and relevant experience in software development, which is a plus for a writer position.",
+      "Solid project experience that displays abilities in problem-solving, collaboration, and implementation.",
+      "A range of technical skills and a demonstrated capacity to learn new technologies are beneficial.",
+      "Good communication skills are essential for a writer role. However, the summary could be improved.",
+      "Quantifiable achievements and results for the experience, and projects would enhance the resume.",
+      "The introduction and summary could be improved to match the job description more effectively.",
+      "Improved project description and use of action verbs.",
+      "Stronger technical skill set description.",
+      "Improved formatting and consistent styling to enhance readability and professionalism.",
+      "Proofreading and review for grammatical and spelling errors."
+    ],
+    "name": "Jake Ryan"
+  }
+}
