@@ -391,5 +391,710 @@
       "Proofreading and review for grammatical and spelling errors."
     ],
     "name": "Jake Ryan"
+  },
+  "169958aac685401bb258aa17706512d9": {
+    "education": [
+      {
+        "degree": "BTech",
+        "fieldOfStudy": "Computer Science and Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "null",
+        "endDate": "null"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Working as a Backend and React Native Developer, while also developing the Operations dashboard. Leveraging AWS CDK and Lambda to integrate multiple AWS services for backend functionality.",
+        "location": "Remote, US",
+        "startDate": "April 2024",
+        "title": "SDE Intern",
+        "endDate": "Current"
+      },
+      {
+        "company": "Climec Labs",
+        "description": "Developed Flutter-based IoT app for air purifiers, enabling users to control their devices and monitor AQI. Integrated graphs and dashboard analysis for the user to track quality and control their air purifiers. Enhanced the developer experience by 70% by incorporating GetX Cli and Firebase for efficient data management.",
+        "location": "Chennai, Tamil Nadu",
+        "startDate": "Sep 2023",
+        "title": "App Development Intern",
+        "endDate": "Dec 2023"
+      },
+      {
+        "company": "SRMKzilla",
+        "description": "Started as a member, promoted to Associate Technical Lead, overseen 4 development projects and creating development initiatives and technical strategies within the club's tech team. Led a team of 20+ members, conducted sessions and tech talks in my tenure.",
+        "location": "null",
+        "startDate": "Oct 2022",
+        "title": "Associate Technical Lead",
+        "endDate": "April 2024"
+      },
+      {
+        "company": "Google Developers Students Clubs SRM",
+        "description": "Led a team of 6 developers in creating an event management app, streamlining event uploads and registration. Enhanced app functionalities through cross-functional collaboration, improving event, participant, and registration management by 60%.",
+        "location": "null",
+        "startDate": "April 2023",
+        "title": "Associate Technical Lead",
+        "endDate": "July 2024"
+      }
+    ],
+    "improvements": [
+      "Add more details about projects, quantifying achievements.",
+      "Expand on technical skills with specific technologies and frameworks.",
+      "Include a summary section to highlight key skills and experiences.",
+      "Use action verbs to begin bullet points in experience sections to improve resume readability.",
+      "Improve formatting to enhance visual appeal."
+    ],
+    "introduction": "I am a highly motivated and results-oriented software developer with a strong background in backend development using technologies like AWS CDK and Lambda.  I am proficient in React Native and Flutter, and have experience in developing both front-end and back-end applications.  My experience extends to leading teams and delivering successful projects. I am eager to leverage my skills and experience to contribute to a dynamic and innovative team.",
+    "keywords": [
+      "Software Developer",
+      "Backend Development",
+      "React Native",
+      "Flutter",
+      "AWS CDK",
+      "Lambda",
+      "AWS",
+      "IoT",
+      "App Development",
+      "Team Leadership"
+    ],
+    "links": {
+      "github": "github.com/jatindotdev",
+      "linkedin": "linkedin.com/in/jatinnkumar",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Contributed to core CMS features, including user management, content creation, and publishing, to improve overall system performance and user experience. Integrated AWS S3 for efficient image upload and management, optimizing storage and retrieval processes within the CMS.",
+        "name": "KzCMS",
+        "startDate": "null",
+        "endDate": "null",
+        "link": "null"
+      },
+      {
+        "description": "Developed a URL shortener in GoLang, then expanded it into a full-stack application using Remix. Implemented Redis for caching and PostgreSQL for data storage without an ORM, optimizing performance and database management.",
+        "name": "TinyBits",
+        "startDate": "null",
+        "endDate": "null",
+        "link": "null"
+      }
+    ],
+    "score": 75.5,
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C++",
+      "AWS CDK",
+      "Lambda",
+      "React Native",
+      "Flutter",
+      "AWS S3",
+      "NodeJS",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "ExpressJS",
+      "ReactJS",
+      "RemixJS",
+      "NextJS",
+      "Astro",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Shaden",
+      "GetX",
+      "Firebase"
+    ],
+    "summary": "A results-oriented software developer with experience in backend development, cloud computing, and mobile application development.  Proven ability to lead teams and deliver high-quality projects.  Strong understanding of multiple programming languages and technologies.",
+    "whyScore": [
+      "Strong technical skills and experience across multiple platforms (backend, mobile, cloud).",
+      "Demonstrates leadership skills through team management and project delivery.",
+      "Quantifiable achievements and results."
+    ],
+    "name": "Jatin"
+  },
+  "524a780f9ee049898581ed0b6a6fac71": {
+    "education": [
+      {
+        "degree": "BTech",
+        "fieldOfStudy": "Computer Science and Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "string",
+        "endDate": null
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Working as a Backend and React Native Developer, while also developing the Operations dashboard. Leveraging AWS CDK and Lambda to integrate multiple AWS services for backend functionality.",
+        "location": "Remote, US",
+        "startDate": "April 2024",
+        "title": "SDE Intern",
+        "endDate": "Current"
+      },
+      {
+        "company": "Climec Labs",
+        "description": "Developed Flutter-based IoT app for air purifiers, enabling users to control their devices and monitor AQI. Integrated graphs and dashboard analysis for the user to track quality and control their air purifiers. Enhanced the developer experience by 70% by incorporating GetX Cli and Firebase for efficient data management.",
+        "location": "Chennai, Tamil Nadu",
+        "startDate": "Sep 2023",
+        "title": "App Development Intern",
+        "endDate": "Dec 2023"
+      },
+      {
+        "company": "SRMKzilla",
+        "description": "Started as a member, promoted to Associate Technical Lead, overseen 4 development projects and creating development initiatives and technical strategies within the club's tech team. Led a team of 20+ members, conducted sessions and tech talks in my tenure.",
+        "location": "string",
+        "startDate": "Oct 2022",
+        "title": "Associate Technical Lead",
+        "endDate": "April 2024"
+      },
+      {
+        "company": "Google Developers Students Clubs SRM",
+        "description": "Led a team of 6 developers in creating an event management app, streamlining event uploads and registration. Enhanced app functionalities through cross-functional collaboration, improving event, participant, and registration management by 60%.",
+        "location": "string",
+        "startDate": "April 2023",
+        "title": "Associate Technical Lead",
+        "endDate": "July 2024"
+      }
+    ],
+    "improvements": [
+      "Add more detail to project descriptions, quantifying achievements whenever possible.",
+      "Include a section on key accomplishments for each role.",
+      "Expand on technical skills, adding specific technologies and frameworks used.",
+      "Provide more context regarding responsibilities in previous roles and projects.",
+      "Specify the tools and technologies used in projects."
+    ],
+    "introduction": "I am a highly motivated and detail-oriented software developer with a strong background in backend and frontend development. I have experience leveraging technologies like React Native, Flutter, AWS CDK, and Lambda. I'm proficient in various programming languages including TypeScript, JavaScript, Python, Go, SQL, and C/C++.  I'm eager to contribute my skills and enthusiasm to a dynamic team and help in developing innovative software solutions.",
+    "keywords": [
+      "Software Developer",
+      "Backend Development",
+      "Frontend Development",
+      "AWS",
+      "React Native",
+      "Flutter",
+      "AWS CDK",
+      "Lambda",
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C/C++"
+    ],
+    "links": {
+      "github": "github.com/jatindotdev",
+      "linkedin": "linkedin.com/in/jatinnkumar",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Contributed to core CMS features, including user management, content creation, and publishing, to improve overall system performance and user experience. Integrated AWS S3 for efficient image upload and management, optimizing storage and retrieval processes within the CMS.",
+        "name": "KzCMS",
+        "startDate": "string",
+        "endDate": null,
+        "link": "string"
+      },
+      {
+        "description": "Developed a URL shortener in GoLang, then expanded it into a full-stack application using Remix. Implemented Redis for caching and PostgreSQL for data storage without an ORM, optimizing performance and database management.",
+        "name": "TinyBits",
+        "startDate": "string",
+        "endDate": null,
+        "link": "string"
+      }
+    ],
+    "score": 75.6,
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C/C++",
+      "React Native",
+      "Flutter",
+      "AWS",
+      "AWS CDK",
+      "Lambda",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "ExpressJS",
+      "ReactJS",
+      "RemixJS",
+      "NextJS",
+      "Astro",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Shaden"
+    ],
+    "summary": "A highly motivated and detail-oriented software developer with strong experience in backend development, frontend development, and cloud computing.  Demonstrates a proactive approach to problem-solving, technical leadership, and an ability to work effectively in teams. Proven ability to learn new technologies quickly and apply them to real-world projects.  Strong understanding of AWS and cloud-based infrastructure, as well as experience with multiple programming languages, including TypeScript, JavaScript, Python, and Go.",
+    "whyScore": [
+      "Strong technical skills, highlighting experience with relevant technologies.",
+      "Demonstrates a good understanding of cloud computing and AWS.",
+      "Good team experience and leadership.",
+      "Projects show good problem-solving skills.",
+      "Opportunities for improvement in providing more details and quantifying achievements."
+    ],
+    "name": "Jatin"
+  },
+  "24e089b9a3694b059f3492069c6f71ea": {
+    "education": [
+      {
+        "degree": "BTech",
+        "fieldOfStudy": "Computer Science and Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "string"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Working as a Backend and React Native Developer, while also developing the Operations dashboard. Leveraging AWS CDK and Lambda to integrate multiple AWS services for backend functionality.",
+        "location": "Remote, US",
+        "startDate": "April 2024",
+        "title": "SDE Intern"
+      },
+      {
+        "company": "Climec Labs",
+        "description": "Developed Flutter-based IoT app for air purifiers, enabling users to control their devices and monitor AQI. Integrated graphs and dashboard analysis for the user to track quality and control their air purifiers. Enhanced the developer experience by 70% by incorporating GetX Cli and Firebase for efficient data management.",
+        "location": "Chennai, Tamil Nadu",
+        "startDate": "Sep 2023",
+        "title": "App Development Intern",
+        "endDate": "Dec 2023"
+      }
+    ],
+    "improvements": [
+      "Add more details about responsibilities and accomplishments in each role.",
+      "Quantify achievements whenever possible.",
+      "Provide more context about the projects, like technologies used and specific contributions.",
+      "Highlight key skills and technologies.",
+      "Use action verbs to begin descriptions.",
+      "Proofread for grammar and spelling errors.",
+      "Expand on technical skills"
+    ],
+    "introduction": "I am a motivated and results-oriented software engineer with a proven track record of developing and deploying applications.  I have strong experience with AWS services, React Native, Flutter, and various programming languages.  I'm eager to leverage my skills and experience to contribute to a challenging and rewarding environment.  My focus lies on building efficient, scalable, and user-friendly applications, whether for backend or frontend development.",
+    "keywords": [
+      "AWS",
+      "React Native",
+      "Flutter",
+      "AWS CDK",
+      "Lambda",
+      "IoT",
+      "Air Purifiers",
+      "API",
+      "Frontend",
+      "Backend",
+      "Development",
+      "SDE",
+      "Intern",
+      "Operations Dashboard"
+    ],
+    "links": {
+      "github": "github.com/jatindotdev",
+      "linkedin": "linkedin.com/in/jatinnkumar",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "Contributed to core CMS features, including user management, content creation, and publishing, to improve overall system performance and user experience. Integrated AWS S3 for efficient image upload and management, optimizing storage and retrieval processes within the CMS.",
+        "name": "KzCMS",
+        "startDate": "string",
+        "link": "Github"
+      },
+      {
+        "description": "Developed a URL shortener in GoLang, then expanded it into a full-stack application using Remix. Implemented Redis for caching and PostgreSQL for data storage without an ORM, optimizing performance and database management.",
+        "name": "TinyBits",
+        "startDate": "string",
+        "link": "Github"
+      }
+    ],
+    "score": 78.65,
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Go",
+      "SQL",
+      "C++",
+      "C",
+      "NodeJS",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "ExpressJS",
+      "ReactJS",
+      "RemixJS",
+      "NextJS",
+      "Astro",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Shaden"
+    ],
+    "summary": "A highly motivated and results-oriented software engineering intern with a strong background in full-stack development and leveraging AWS services.  Demonstrates experience in designing, building, and deploying applications across multiple platforms, showing proficiencies in various programming languages and frameworks like React Native, Flutter, and AWS.  Proven ability to work independently and collaboratively, particularly in leading teams, excelling at problem-solving and strategic planning.",
+    "whyScore": [
+      "Resume has good content but needs improvements in structure and action verbs.",
+      "Resume needs additional details and quantification of achievements.",
+      "Additional experience and project descriptions would improve the resume.",
+      "Limited experience in some areas but showing growth potential and learning.",
+      "Resume overall has decent keywords and skills listed but needs improvement in presenting and outlining accomplishments"
+    ],
+    "name": "Jatin"
+  },
+  "519993877e98481ca82525ab7887f8b4": {
+    "education": [
+      {
+        "degree": "B.Tech",
+        "fieldOfStudy": "Computer Science and Engineering with Specialization in Artificial Intelligence and Machine Learning",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "2020",
+        "endDate": "2024"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo",
+        "description": "Developed and maintained the mobile application using React Native, and managed the test suite using Maestro, and GitHub Actions.",
+        "location": "null",
+        "startDate": "Jun 2024",
+        "title": "null",
+        "endDate": "Present"
+      },
+      {
+        "company": "Kuddlr",
+        "description": "Developed and optimized features for a pet care platform using Flutter and Ktor, impacting 70% of the service partners.",
+        "location": "null",
+        "startDate": "Aug 2023",
+        "title": "null",
+        "endDate": "Oct 2023"
+      },
+      {
+        "company": "Infosys",
+        "description": "Developed a Health Management System for the Apple Ecosystem using SwiftUl and Firebase.",
+        "location": "null",
+        "startDate": "Apr 2023",
+        "title": "null",
+        "endDate": "May 2023"
+      },
+      {
+        "company": "Tech Analogy",
+        "description": "Developed multiple full-stack applications using technologies such as Next.js, Express, and MongoDB.",
+        "location": "null",
+        "startDate": "Apr 2021",
+        "title": "null",
+        "endDate": "Aug 2022"
+      },
+      {
+        "company": "Criada",
+        "description": "Developed frontend applications and set up e-commerce APIs with MERN Stack.",
+        "location": "null",
+        "startDate": "Mar 2022",
+        "title": "null",
+        "endDate": "Apr 2022"
+      },
+      {
+        "company": "Heiphen",
+        "description": "Developed a frontend application using React, and managed the mailer service using Amazon Simple Email Service.",
+        "location": "null",
+        "startDate": "Aug 2021",
+        "title": "null",
+        "endDate": "Sep 2021"
+      }
+    ],
+    "improvements": [
+      "Add more detail to project descriptions.",
+      "Quantify accomplishments whenever possible.",
+      "Use a consistent formatting style for skills.",
+      "Consider adding a portfolio section.",
+      "Include relevant project URLs for visibility.",
+      "Highlight technical skills in more depth."
+    ],
+    "introduction": "I am a highly motivated and results-oriented software developer with a strong background in programming languages, front-end and back-end web development, and cloud technologies. I am proficient in developing applications using various technologies like React Native, Flutter, Next.js, and SwiftUl. My experience spans from mobile app development to full-stack applications. I am eager to contribute my skills and experience to a dynamic and challenging work environment.",
+    "keywords": [
+      "Software developer",
+      "React Native",
+      "Flutter",
+      "Next.js",
+      "SwiftUl",
+      "Full-stack",
+      "Mobile App",
+      "Cloud Development",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Kotlin",
+      "HTML5",
+      "CSS3",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Google Cloud Platform",
+      "Amazon Web Services"
+    ],
+    "links": {
+      "github": null,
+      "linkedin": "linkedin.com/in/vashist-agarwalla",
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "A travel planning application that comes with some distinctive features such as a 'flaky meter' that assesses the likelihood of an individual causing disruptions to an entire trip.",
+        "name": "Circles",
+        "startDate": "null",
+        "endDate": null,
+        "link": null
+      }
+    ],
+    "score": 78.5,
+    "skills": [
+      "C",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Swift",
+      "Kotlin",
+      "HTML5",
+      "CSS3",
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "Node.js",
+      "Express",
+      "Ktor",
+      "MongoDB",
+      "PostgreSQL",
+      "Google Cloud Platform",
+      "Amazon Web Services",
+      "SwiftUI",
+      "Flutter",
+      "React Native",
+      "GitHub Actions",
+      "Maestro"
+    ],
+    "summary": "A strong and well-rounded software developer proficient in various programming languages and technologies, including front-end and back-end development, mobile app development, and cloud computing. Demonstrates an ability to lead and contribute to team projects.",
+    "whyScore": [
+      "The resume is strong with relevant skills and experience.",
+      "Quantifiable results could significantly improve the overall impression.",
+      "Clearer project descriptions would enhance comprehension.",
+      "Adding a portfolio or links would provide further context and validate skills."
+    ],
+    "name": "VASHIST AGARWALLA"
+  },
+  "393f4a5697044edf8e09f8e00bbfb5a5": {
+    "education": [
+      {
+        "degree": "Bachelor of Technology",
+        "fieldOfStudy": "Computer Science Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "Sep. 2022",
+        "endDate": "May 2026"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo.AΙ",
+        "description": "Worked with React Native Expo on the mobile application and Next.Js on the website. Developed and maintained modular, reusable components using React Native, NativeWind and TypeScript. Created and maintained 100+ Maestro tests, helping improve application quality by reducing bugs and ensuring reliable, consistent product performance.",
+        "location": "Remote, USA",
+        "startDate": "Mar. 2024",
+        "title": "Software Engineer Intern"
+      },
+      {
+        "company": "Samsung R&D Institute India",
+        "description": "Contributed actively to 10+ collaborative ideation sessions, facilitating the investigation and creation 35+ of novel, research-based concepts for the project. Directed the development of an MVP with integrated machine learning features, ensuring its successful implementation and deployment.",
+        "location": "Remote, India",
+        "startDate": "Feb. 2024",
+        "title": "Samsung Prism R&D Intern",
+        "endDate": "Sep. 2024"
+      }
+    ],
+    "improvements": [
+      "Add quantifiable achievements and results for each role.",
+      "Clarify responsibilities and contributions in more detail.",
+      "Highlight technical skills and tools used.",
+      "Expand the project sections with more details and specific technologies used.",
+      "Include a more comprehensive summary of skills and experience.",
+      "Use action verbs and quantify accomplishments.",
+      "Add sections for languages and frameworks used and any other relevant skills."
+    ],
+    "introduction": "I am a highly motivated and results-oriented software engineer intern with a strong background in web and mobile application development.  I am proficient in various technologies such as React Native, Next.js, and TypeScript, and I have a demonstrated ability to work effectively in teams.  I excel at designing, implementing, and optimizing software solutions and am passionate about continuous learning and staying updated with the latest industry trends. I am eager to contribute to a dynamic and innovative environment where I can leverage my skills and experience to achieve significant results. ",
+    "keywords": [
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "mobile applications",
+      "web applications",
+      "software development",
+      "machine learning",
+      "MVP",
+      "testing",
+      "collaborative",
+      "project management",
+      "research",
+      "Python",
+      "FastAPI",
+      "React.js",
+      "TailwindCSS"
+    ],
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "A student aiding and notes organizing application that seamlessly integrates an OCR model and 10+ fine-tuned open-source LLMs, designed to assist with notes alongside blackboard pictures. Developed the entire client side application using React and TailwindCSS with FastAPI integration.",
+        "name": "Educative.AI",
+        "startDate": "Mar. 2024"
+      },
+      {
+        "description": "Developed a Minecraft server plugin to entertain kids during free time for a previous job Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review Implemented continuous delivery using TravisCI to build the plugin upon new a release Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin",
+        "name": "One Med",
+        "startDate": "Mar. 2024"
+      }
+    ],
+    "score": 75,
+    "skills": [
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "FastAPI",
+      "React.js",
+      "TailwindCSS",
+      "machine learning",
+      "MVP",
+      "testing"
+    ],
+    "summary": "Tanmay is a highly motivated and results-oriented software engineer intern with experience in mobile and web application development. Proven ability to work effectively in teams and contribute to the success of collaborative projects. Proficient in various technologies including React Native, Next.js, and TypeScript.",
+    "whyScore": [
+      "Solid foundation in web and mobile development technologies.",
+      "Demonstrated ability to work collaboratively in teams.",
+      "Good understanding of software development principles.",
+      "Lack of quantifiable results and impact.",
+      "Limited experience in specific areas such as machine learning or project management.",
+      "Limited details on projects."
+    ],
+    "name": "Tanmay Agrawal"
+  },
+  "e9e8da65e618410fb600f2bc18233aab": {
+    "education": [
+      {
+        "degree": "Bachelor of Technology",
+        "fieldOfStudy": "Computer Science Engineering",
+        "school": "SRM Institute of Science and Technology",
+        "startDate": "Sep. 2022"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Emendo.AI",
+        "description": "Worked with React Native Expo on the mobile application and Next.Js on the website. Developed and maintained modular, reusable components using React Native, NativeWind and TypeScript. Created and maintained 100+ Maestro tests, helping improve application quality by reducing bugs and ensuring reliable, consistent product performance.",
+        "location": "Remote, USA",
+        "startDate": "Mar. 2024",
+        "title": "Software Engineer Intern",
+        "endDate": "May 2026"
+      },
+      {
+        "company": "Samsung R&D Institute India",
+        "description": "Contributed actively to 10+ collaborative ideation sessions, facilitating the investigation and creation 35+ of novel, research-based concepts for the project. Directed the development of an MVP with integrated machine learning features, ensuring its successful implementation and deployment.",
+        "location": "Remote, India",
+        "startDate": "Feb. 2024",
+        "title": "Samsung Prism R&D Intern",
+        "endDate": "Sep. 2024"
+      }
+    ],
+    "improvements": [
+      "Add quantifiable achievements and results to the experience section.",
+      "Expand the projects section with more details, including technologies used, contributions, and outcomes.",
+      "Include a summary of key skills and technologies.",
+      "Add sections for certifications, awards, and volunteer experience if applicable. ",
+      "Use action verbs to start each bullet point.",
+      "Provide more detail about the projects. Include any relevant code or links.",
+      "Use keywords more relevant to the job description (e.g., software development methodologies, tools like Git, cloud computing)."
+    ],
+    "introduction": "I am a highly motivated and results-oriented software engineering intern with a strong background in developing and deploying applications using React Native, Next.js, and other technologies.  My experience includes developing applications for mobile devices and websites, and I excel at working collaboratively on projects. I have a proven ability to identify issues and contribute to their resolution, consistently striving for high-quality output and exceeding expectations.",
+    "keywords": [
+      "Software Engineer",
+      "React Native",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Mobile Application",
+      "Web Application",
+      "Testing",
+      "Machine Learning",
+      "Python",
+      "AWS",
+      "Agile",
+      "Cloud Computing",
+      "Git",
+      "Version Control",
+      "Debugging"
+    ],
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "personal": null,
+      "portfolio": null
+    },
+    "projects": [
+      {
+        "description": "A student aiding and notes organizing application that seamlessly integrates an OCR model and 10+ fine-tuned open-source LLMs, designed to assist with notes alongside blackboard pictures. Developed the entire client side application using React and TailwindCSS with FastAPI integration.",
+        "name": "Educative.AI",
+        "startDate": "Ongoing",
+        "endDate": null,
+        "link": null
+      },
+      {
+        "description": "Developed a Minecraft server plugin to entertain kids during free time. Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review. Implemented continuous delivery using TravisCI to build the plugin upon new a release. Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin.",
+        "name": "One Med",
+        "startDate": "Previous Job",
+        "endDate": null,
+        "link": null
+      },
+      {
+        "description": "Designed and developed a responsive website with an authentication system and a scalable backend. Employed KNN, TF-IDF for research paper recommendation and AWS SES for email service.",
+        "name": "Paperpilot.AI",
+        "startDate": "Ongoing",
+        "endDate": null,
+        "link": null
+      }
+    ],
+    "score": 85.2,
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "React Native",
+      "Python",
+      "AWS",
+      "TailwindCSS",
+      "Git",
+      "Testing",
+      "Machine Learning",
+      "Cloud Computing",
+      "Mobile Development",
+      "Web Development",
+      "Agile"
+    ],
+    "summary": "A highly motivated and versatile software engineering intern with practical experience in developing and deploying applications for both mobile and web platforms. Demonstrates strong proficiency in JavaScript, TypeScript, React, Next.js, React Native, and other related technologies. Proficient in debugging, testing, and problem-solving. Adept at collaborating effectively in team environments and consistently striving for high-quality deliverables. Eager to contribute to challenging projects.",
+    "whyScore": [
+      "Strong foundation in JavaScript and modern front-end technologies.",
+      "Positive experience with React and Next.js, essential for many web and mobile applications.",
+      "Basic knowledge of Python and machine learning, a growing demand for software engineers.",
+      "Contributions to projects demonstrate initiative and practical application of skills.",
+      "Moderate participation in collaborative environments and successful implementations.  A clear ability to learn and adapt.",
+      "Good resume structure.  Needs improvement to reflect strong technical skills and quantify project impact. "
+    ],
+    "name": "Tanmay Agrawal"
   }
 }
