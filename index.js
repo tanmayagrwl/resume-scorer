@@ -1,0 +1,1 @@
+console.log('This is a test script for the Resume Scorer application.');
