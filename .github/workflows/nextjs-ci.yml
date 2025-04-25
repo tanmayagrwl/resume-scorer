@@ -59,14 +59,13 @@ jobs:
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@latest
         
-      - name: Install ChromeDriver
+      - name: Set up ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+        
+      - name: Check Chrome and ChromeDriver versions
         run: |
-          CHROME_VERSION=$(google-chrome --version | awk '{ print $3 }' | cut -d '.' -f 1)
-          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
-          curl -L -o chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
-          unzip chromedriver.zip
-          chmod +x chromedriver
-          mv chromedriver /usr/local/bin/
+          google-chrome --version
+          chromedriver --version
           
       - name: Start Next.js app
         run: bunx next start & sleep 5
