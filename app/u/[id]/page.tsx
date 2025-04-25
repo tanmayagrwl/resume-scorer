@@ -16,7 +16,7 @@ export default async function Page({
   return (
     <div className="bg-white min-h-screen pt-10">
       <div className="mx-auto max-w-3xl px-4 md:p-0 text-zinc-800">
-        <h1 className="mb-3 text-3xl font-semibold">Hi, I'm {resume.name}</h1>
+        <h1 className="mb-3 text-3xl font-semibold">Hi, I&apos;m {resume.name}</h1>
         <p className="text-zinc-800">
           {resume.introduction}
         </p>
