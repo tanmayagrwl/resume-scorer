@@ -26,7 +26,7 @@ jobs:
         run: bun lint
 
       - name: Build application
-        run: bun build
+        run: bunx next build
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
