@@ -34,3 +34,42 @@ jobs:
           name: build-output
           path: .next/
           include-hidden-files: true
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+        
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-output
+          path: .next/
+          
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
+        
+      - name: Install ChromeDriver
+        run: |
+          CHROME_VERSION=$(google-chrome --version | awk '{ print $3 }' | cut -d '.' -f 1)
+          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+          curl -L -o chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+          unzip chromedriver.zip
+          chmod +x chromedriver
+          mv chromedriver /usr/local/bin/
+          
+      - name: Start Next.js app
+        run: bunx next start & sleep 5
+        
+      - name: Run Selenium tests
+        run: bun run test:selenium
