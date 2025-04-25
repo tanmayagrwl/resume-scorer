@@ -29,9 +29,9 @@ jobs:
     - name: Build application
       run: npm run build
 
-    # Optional: Save build output as artifact
+    # Updated to v4 of actions/upload-artifact
     - name: Upload build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-output
         path: .next/
