@@ -1,4 +1,81 @@
-name: Next.js CI/CD
+# name: Next.js CI/CD
+
+# on:
+#   push:
+#     branches: [ main, master ]
+#   pull_request:
+#     branches: [ main, master ]
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+
+#       - name: Set up Bun
+#         uses: oven-sh/setup-bun@v1
+#         with:
+#           bun-version: latest
+
+#       - name: Install dependencies
+#         run: bun install
+
+#       - name: Run linting
+#         run: bun lint
+
+#       - name: Build application
+#         run: bunx next build
+
+#       - name: Upload build artifact
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: build-output
+#           path: .next/
+#           include-hidden-files: true
+#   test:
+#     needs: build
+#     runs-on: ubuntu-latest
+    
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+
+#       - name: Set up Bun
+#         uses: oven-sh/setup-bun@v1
+#         with:
+#           bun-version: latest
+
+#       - name: Install dependencies
+#         run: bun install
+        
+#       - name: Download build artifact
+#         uses: actions/download-artifact@v4
+#         with:
+#           name: build-output
+#           path: .next/
+          
+#       - name: Set up Chrome
+#         uses: browser-actions/setup-chrome@latest
+        
+#       - name: Set up ChromeDriver
+#         uses: nanasess/setup-chromedriver@v2
+        
+#       - name: Check Chrome and ChromeDriver versions
+#         run: |
+#           google-chrome --version
+#           chromedriver --version
+          
+#       - name: Start Next.js app
+#         run: bunx next start & sleep 5
+        
+#       - name: Run Selenium tests
+#         run: bun run test:selenium
+
+
+
+name: CI/CD Pipeline
 
 on:
   push:
@@ -7,68 +84,55 @@ on:
     branches: [ main, master ]
 
 jobs:
-  build:
+  code-change:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Bun
-        uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
-
-      - name: Install dependencies
-        run: bun install
-
-      - name: Run linting
-        run: bun lint
-
-      - name: Build application
-        run: bunx next build
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-output
-          path: .next/
-          include-hidden-files: true
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Bun
-        uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
-
-      - name: Install dependencies
-        run: bun install
-        
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build-output
-          path: .next/
-          
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@latest
-        
-      - name: Set up ChromeDriver
-        uses: nanasess/setup-chromedriver@v2
-        
-      - name: Check Chrome and ChromeDriver versions
+      - name: code change
         run: |
-          google-chrome --version
-          chromedriver --version
-          
-      - name: Start Next.js app
-        run: bunx next start & sleep 5
-        
-      - name: Run Selenium tests
-        run: bun run test:selenium
+          echo "Simulating code change..."
+          sleep 4
+
+  pull-code:
+    needs: code-change
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling code
+        run: |
+          echo "Simulating pulling code..."
+          sleep 4
+
+  maven-build:
+    needs: pull-code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Maven build
+        run: |
+          echo "Simulating Maven build..."
+          sleep 4
+
+  docker-build-push:
+    needs: maven-build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Docker image build and push
+        run: |
+          echo "Simulating Docker image build and push..."
+          sleep 4
+
+  kubernetes-deploy:
+    needs: docker-build-push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kubernetes deployment
+        run: |
+          echo "Simulating Kubernetes deployment..."
+          sleep 4
+
+  access-app:
+    needs: kubernetes-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: accessing the app
+        run: |
+          echo "Simulating accessing the app via http://<LoadBalancer-DNS or NodePort-IP>"
+          sleep 4
