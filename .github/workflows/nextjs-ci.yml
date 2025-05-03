@@ -1,138 +1,73 @@
-# name: Next.js CI/CD
-
-# on:
-#   push:
-#     branches: [ main, master ]
-#   pull_request:
-#     branches: [ main, master ]
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v4
-
-#       - name: Set up Bun
-#         uses: oven-sh/setup-bun@v1
-#         with:
-#           bun-version: latest
-
-#       - name: Install dependencies
-#         run: bun install
-
-#       - name: Run linting
-#         run: bun lint
-
-#       - name: Build application
-#         run: bunx next build
-
-#       - name: Upload build artifact
-#         uses: actions/upload-artifact@v4
-#         with:
-#           name: build-output
-#           path: .next/
-#           include-hidden-files: true
-#   test:
-#     needs: build
-#     runs-on: ubuntu-latest
-    
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v4
-
-#       - name: Set up Bun
-#         uses: oven-sh/setup-bun@v1
-#         with:
-#           bun-version: latest
-
-#       - name: Install dependencies
-#         run: bun install
-        
-#       - name: Download build artifact
-#         uses: actions/download-artifact@v4
-#         with:
-#           name: build-output
-#           path: .next/
-          
-#       - name: Set up Chrome
-#         uses: browser-actions/setup-chrome@latest
-        
-#       - name: Set up ChromeDriver
-#         uses: nanasess/setup-chromedriver@v2
-        
-#       - name: Check Chrome and ChromeDriver versions
-#         run: |
-#           google-chrome --version
-#           chromedriver --version
-          
-#       - name: Start Next.js app
-#         run: bunx next start & sleep 5
-        
-#       - name: Run Selenium tests
-#         run: bun run test:selenium
-
-
-
-name: CI/CD Pipeline
+name: Simulated Blue-Green CI/CD Pipeline
 
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 
 jobs:
-  code-change:
+  cicd:
+    name: 🔁 CI/CD Pipeline
     runs-on: ubuntu-latest
-    steps:
-      - name: code change
-        run: |
-          echo "Simulating code change..."
-          sleep 4
 
-  pull-code:
-    needs: code-change
-    runs-on: ubuntu-latest
-    steps:
-      - name: pulling code
-        run: |
-          echo "Simulating pulling code..."
-          sleep 4
+    env:
+      COLOR: green
+      BUILD_NUMBER: 1
+      IMAGE: 1
 
-  maven-build:
-    needs: pull-code
-    runs-on: ubuntu-latest
     steps:
-      - name: Maven build
-        run: |
-          echo "Simulating Maven build..."
-          sleep 4
+      - name: ✅ Checkout Code
+        uses: actions/checkout@v4
 
-  docker-build-push:
-    needs: maven-build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Docker image build and push
+      - name: 🧪 TC4 - Build & Lint
         run: |
-          echo "Simulating Docker image build and push..."
-          sleep 4
+          echo "Running bun install..."
+          sleep 1
+          echo "Running bun lint..."
+          sleep 1
+          echo "Running bunx next build..."
+          sleep 2
+          echo "Build artifact simulated."
 
-  kubernetes-deploy:
-    needs: docker-build-push
-    runs-on: ubuntu-latest
-    steps:
-      - name: Kubernetes deployment
+      - name: 🐳 TC4 - Docker Build & Push
         run: |
-          echo "Simulating Kubernetes deployment..."
-          sleep 4
+          echo "Building Docker image: $IMAGE"
+          sleep 2
+          echo "Pushing image to Docker Hub..."
+          sleep 1
+          echo "Image pushed: $IMAGE"
 
-  access-app:
-    needs: kubernetes-deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: accessing the app
+      - name: ☸️ TC1/TC5 - Kubernetes Deployment
         run: |
-          echo "Simulating accessing the app via http://<LoadBalancer-DNS or NodePort-IP>"
-          sleep 4
+          echo "Applying deployment-${COLOR}.yaml"
+          sleep 2
+          echo "Setting image: deployment/myapp-${COLOR} myapp=$IMAGE"
+          echo "Waiting for rollout to complete..."
+          sleep 2
+          echo "Rollout successful for color: $COLOR"
+
+      - name: ✅ TC1 - Check Blue & Green Deployments
+        run: |
+          echo "Pods in 'blue':"
+          echo "myapp-blue-abc123 Running"
+          echo "Pods in 'green':"
+          echo "myapp-green-def456 Running"
+
+      - name: 🔁 TC2 - Switch Service to ${{ env.COLOR }}
+        run: |
+          echo "Waiting for manual approval to switch service..."
+          sleep 2
+          echo "Patching service selector to color=${COLOR}"
+          echo "Service now routes to ${COLOR} deployment"
+
+      - name: 🧪 TC2 - Post-Switch Verification
+        run: |
+          echo "Validating service points to ${COLOR}"
+          echo "Endpoints:"
+          echo "10.1.1.5:3000, 10.1.1.6:3000"
+
+      - name: 🔙 TC3 - Rollback
+        if: always()  # Always show rollback simulation for demo
+        run: |
+          echo "Simulating rollback to previous version (blue)"
+          sleep 1
+          echo "Service now routing back to color=blue"
